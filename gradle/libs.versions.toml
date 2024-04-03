@@ -8,6 +8,7 @@ espressoCore = "3.5.1"
 appcompat = "1.6.1"
 material = "1.11.0"
 activity = "1.8.0"
+jetbrainsKotlinJvm = "1.9.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -21,4 +22,5 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrainsKotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 

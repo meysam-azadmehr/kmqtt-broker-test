@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "kmqtt-broker"
 include(":app")
- 
+include(":app:lib")

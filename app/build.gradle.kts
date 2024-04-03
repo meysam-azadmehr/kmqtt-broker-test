@@ -41,9 +41,13 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
+    implementation(fileTree(mapOf(
+        "dir" to "lib",
+        "include" to listOf("*.aar", "*.jar"),
+    )))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("io.github.davidepianca98:kmqtt-common:0.4.6")
-    implementation("io.github.davidepianca98:kmqtt-broker:0.4.6")
+//    implementation("io.github.davidepianca98:kmqtt-broker:0.4.6")
 }
